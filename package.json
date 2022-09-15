@@ -34,14 +34,14 @@
     "lint": "eslint lib/**/*.js test/**/*.js",
     "pretest": "npm run lint"
   },
-  "optionalDependencies": {
-    "unix-dgram": "2.0.x"
-  },
+  "optionalDependencies": {},
   "devDependencies": {
     "eslint": "5.9.x",
     "mocha": "6.2.x",
     "nyc": "15.x"
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "unix-dgram": "2.0.x"
+  }
 }
